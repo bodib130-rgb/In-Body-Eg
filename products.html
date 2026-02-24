@@ -1,0 +1,113 @@
+<!-- products.html -->
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>المنتجات | موقعي</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <a class="brand" href="index.html"><span class="logo">IB</span><span class="brandText">موقعي</span></a>
+      <nav class="links">
+        <a href="index.html">الرئيسية</a>
+        <a class="active" href="products.html">المنتجات</a>
+        <a href="services.html">الخدمات</a>
+        <a href="about.html">نبذة</a>
+        <a href="contact.html">تواصل</a>
+      </nav>
+      <a class="btn btnSmall" href="contact.html">اطلب الآن</a>
+      <button class="burger" id="burger" aria-label="فتح القائمة">☰</button>
+    </div>
+    <div class="mobileMenu" id="mobileMenu">
+      <a href="index.html">الرئيسية</a>
+      <a href="products.html">المنتجات</a>
+      <a href="services.html">الخدمات</a>
+      <a href="about.html">نبذة</a>
+      <a href="contact.html">تواصل</a>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="pageHead">
+      <div class="container">
+        <h1 class="h1">المنتجات والأسعار</h1>
+        <p class="muted">.</p>
+
+        <div class="filters">
+          <input class="input" id="search" type="search" placeholder="ابحث عن منتج…" />
+          <select class="input" id="category">
+            <option value="all">كل الفئات</option>
+            <option value="device">أجهزة</option>
+            <option value="supp"></option>
+            <option value="acc">إكسسوارات</option>
+          </select>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="grid3" id="productsGrid">
+
+          <article class="card product" data-cat="device">
+            <div class="productTop">
+              <div class="pill">جديد</div>
+              <div class="price">12,000 ج</div>
+            </div>
+            <h3 class="h3">ميزان ذكي (مثال)</h3>
+            <p class="muted">وصف بسيط عن المنتج ومميزاته.</p>
+            <div class="row">
+              <a class="btn btnSmall" href="contact.html">اطلب</a>
+              <a class="btn btnSmall btnGhost" href="https://wa.me/201000000000" target="_blank" rel="noopener">واتساب</a>
+            </div>
+          </article>
+
+          <article class="card product" data-cat="supp">
+            <div class="productTop">
+              <div class="pill">عرض</div>
+              <div class="price">850 ج</div>
+            </div>
+            <h3 class="h3"> ()</h3>
+            <p class="muted">اكتب الحجم/النكهة/المنشأ…</p>
+            <div class="row">
+              <a class="btn btnSmall" href="contact.html">اطلب</a>
+              <a class="btn btnSmall btnGhost" href="https://wa.me/201000000000" target="_blank" rel="noopener">واتساب</a>
+            </div>
+          </article>
+
+          <article class="card product" data-cat="acc">
+            <div class="productTop">
+              <div class="pill">متاح</div>
+              <div class="price">220 ج</div>
+            </div>
+            <h3 class="h3">In Body / إكسسوار (مثال)</h3>
+            <p class="muted">وصف بسيط + خامة + الضمان.</p>
+            <div class="row">
+              <a class="btn btnSmall" href="contact.html">اطلب</a>
+              <a class="btn btnSmall btnGhost" href="https://wa.me/201000000000" target="_blank" rel="noopener">واتساب</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <a class="waFloat" href="https://wa.me/201000993007" target="_blank" rel="noopener"><span>واتساب</span></a>
+
+  <footer class="footer">
+    <div class="container foot">
+      <p>© <span id="year"></span> موقعي</p>
+      <div class="footLinks">
+        <a href="services.html">الخدمات</a>
+        <a href="contact.html">تواصل</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

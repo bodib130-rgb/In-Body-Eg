@@ -1,0 +1,82 @@
+<!-- about.html -->
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>نبذة | موقعي</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <a class="brand" href="index.html"><span class="logo">IB</span><span class="brandText">موقعي</span></a>
+      <nav class="links">
+        <a href="index.html">الرئيسية</a>
+        <a href="products.html">المنتجات</a>
+        <a href="services.html">الخدمات</a>
+        <a class="active" href="about.html">نبذة</a>
+        <a href="contact.html">تواصل</a>
+      </nav>
+      <a class="btn btnSmall" href="contact.html">تواصل</a>
+      <button class="burger" id="burger" aria-label="فتح القائمة">☰</button>
+    </div>
+    <div class="mobileMenu" id="mobileMenu">
+      <a href="index.html">الرئيسية</a>
+      <a href="products.html">المنتجات</a>
+      <a href="services.html">الخدمات</a>
+      <a href="about.html">نبذة</a>
+      <a href="contact.html">تواصل</a>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="pageHead">
+      <div class="container">
+        <h1 class="h1">نبذة عني</h1>
+        <p class="muted">اكتب هنا تعريف بسيط عنك وخبرتك وطريقة شغلك.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="split">
+          <div class="card">
+            <h2 class="h2">أنا مين؟</h2>
+            <p class="muted">
+              اكتب سطرين: اسمك، مجالك، خبرتك، وإيه اللي بيميزك عن غيرك.
+            </p>
+            <div class="hr"></div>
+            <h3 class="h3">مبادئ شغلي</h3>
+            <ul class="list">
+              <li>قرارات مبنية على بيانات</li>
+              <li>خطة سهلة تتطبق</li>
+              <li>متابعة ونتائج</li>
+            </ul>
+          </div>
+
+          <div class="note">
+            <h3 class="h3">هدفك إيه؟</h3>
+            <p class="muted">تنشيف؟ زيادة عضل؟ صحة عامة؟ ابعتلي وأنا أوجهك.</p>
+            <a class="btn btnWide" href="contact.html">تواصل دلوقتي</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <a class="waFloat" href="https://wa.me/201000000000" target="_blank" rel="noopener"><span>واتساب</span></a>
+
+  <footer class="footer">
+    <div class="container foot">
+      <p>© <span id="year"></span> موقعي</p>
+      <div class="footLinks">
+        <a href="services.html">الخدمات</a>
+        <a href="contact.html">تواصل</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
